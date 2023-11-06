@@ -1,0 +1,48 @@
+
+
+//===================================== HEADER START =====================================//
+
+.header {
+    margin-bottom: 189px;
+
+    .header-box {
+        padding: 92px 0px 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+            color: #FFF;
+            text-align: center;
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+
+            li {
+                margin-right: 71px;
+
+                a {
+                    color: #FFF;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-transform: capitalize;
+                }
+            }
+
+            .header-item {
+                margin-right: 45px;
+            }
+        }
+    }
+}
+
+//===================================== HEADER END =====================================//

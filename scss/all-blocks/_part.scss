@@ -1,0 +1,45 @@
+//===================================== PART START =====================================//
+.part {
+    width: 1063px;
+    height: 378px;
+    padding: 24px 0px 0px 360px ;
+    border-radius: 20px;
+    background: linear-gradient(97deg, #1F143B -19.45%, #3C8273 103.56%);
+    margin-bottom: 262px;
+
+
+    h2 {
+        width: 312px;
+        color: #FFF;
+        text-align: center;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        margin-bottom: 39px;
+    }
+
+    button {
+        color: #FFF;
+        text-align: center;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        border: none;
+        text-transform: uppercase;
+        padding: 12px 78px;
+        border-radius: 50px;
+        background: #000;
+
+        &:hover {
+            opacity: 0.7;
+        }
+
+        &:active {
+            opacity: 0.3;
+        }
+    }
+}
+
+//===================================== PART END =====================================//

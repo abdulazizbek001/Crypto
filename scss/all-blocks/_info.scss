@@ -1,0 +1,56 @@
+
+
+//===================================== INFO START =====================================//
+
+.info {
+    margin-bottom: 195px;
+
+    h2 {
+        color: #FFF;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+    }
+
+    div {
+        position: relative;
+        width: 1065px;
+        height: 125px;
+    }
+
+    img {
+        width: 994px;
+        height: 126px;
+        position: absolute;
+        right: 79px;
+        top: 9px;
+    }
+
+    .info-list {
+        position: relative;
+        padding: 46px 84px 45px 31px;
+        display: flex;
+        align-items: center;
+        gap: 0 138px;
+        width: 990px;
+        height: 125px;
+        border: 1px solid #5BD2BD;
+        background: #23263C;
+        z-index: 2;
+
+        a {
+            color: #FFF;
+            opacity: 0.5;
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+    }
+}
+
+//===================================== INFO END =====================================//

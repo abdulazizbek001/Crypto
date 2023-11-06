@@ -1,0 +1,170 @@
+
+
+//===================================== BUY START =====================================//
+
+.buy {
+    display: flex;
+    align-items: center;
+    margin-bottom: 74px;
+
+    .buy-box {
+        position: relative;
+        margin-left: 50px;
+
+        h2 {
+            width: 542px;
+            color: #FFF;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 73px;
+
+            .h2-span {
+                color: #56CAB1;
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 73px;
+                margin-bottom: 5px;
+            }
+        }
+
+        p {
+            width: 521px;
+            color: #4C99BB;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 31px;
+            margin-bottom: 6px;
+        }
+
+        .title-span {
+            left: -10px;
+        }
+
+        .box-img {
+            position: absolute;
+            left: 190px;
+            bottom: 265px;
+            z-index: 1;
+        }
+
+        .box-title {
+            position: relative;
+            width: 472px;
+            color: #FFF;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: capitalize;
+            display: flex;
+            align-items: end;
+            margin-bottom: 13px;
+
+            div {
+                margin-left: 80px;
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                width: 43px;
+                height: 7px;
+                right: 149px;
+                top: 75px;
+                border-radius: 7px;
+                background-image: url("../../assets/svg/Vector1.svg");
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                width: 23px;
+                height: 35px;
+                right: 138px;
+                top: 60px;
+                background-image: url("../../assets/svg/Vector2.svg");
+            }
+
+            hr {
+                top: 10px;
+                margin-left: 60px;
+                margin-right: -38px;
+                width: 43.686px;
+                height: 5px;
+                border: none;
+                border-radius: 7px;
+                background: #02061A;
+            }
+        }
+
+        .box-img1 {
+            position: absolute;
+            width: 134px;
+            height: 66px;
+            left: -5px;
+            bottom: 140px;
+            margin-bottom: 34px;
+        }
+
+        button {
+            padding: 12px 18px 24px 8px;
+            color: #FFF;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: capitalize;
+            border-radius: 16px;
+            border: 1px solid #56CAB1;
+            background: none;
+            margin-bottom: 34px;
+
+            &:hover {
+                opacity: 0.7;
+            }
+
+            &:active {
+                opacity: 0.3;
+            }
+        }
+    }
+
+    .buy-list {
+        position: relative;
+        padding: 18px 34px 20px 28px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 521px;
+        height: 132px;
+        border-radius: 18px;
+        background: #3A5B6A;
+
+        .buy-item {
+            right: 100px;
+            width: 138px;
+            margin-bottom: 18px;
+            margin-left: 10px;
+
+            .item-text {
+                width: 138px;
+                color: #FFF;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                text-transform: capitalize;
+            }
+        }
+
+        .buy-item2 {
+            text-align: start;
+            margin-left: 15px;
+        }
+    }
+}
+
+
+//===================================== BUY END =====================================//
